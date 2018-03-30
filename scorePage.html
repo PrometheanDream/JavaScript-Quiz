@@ -11,22 +11,20 @@
     
 </head>
 <body>
-        <h1 id="rank">Ranking Page!</h1>
+        <h1 id="rank">JavaScript Quiz!</h1>
 
 <div class="scorePage">
     <h2> Congratulations on finishing the quiz!</h2>
     
     <div><h3 id="scoreBox"> You scored:</h3> <h3 id="finalScore">this gets replaced</h3></div> 
-    <p>You've earned the rank: thisgetsreplaced</p>
+    <p id="finalRank">You've earned the rank: thisgetsreplaced</p>
 
 
     <button id="restart" onclick="window.location.href='index.html'">Restart Quiz</button>
 </div>
 
-
-<script src="/scripts/app.js"></script>
-
-
+<script src="scripts/knockout-v3.4.2.js"></script>
+<script src="scripts/app.js"></script>
 
 <script>
     document.getElementById("finalScore").innerHTML = sessionStorage.getItem("finalScore");
