@@ -1,33 +1,52 @@
-@import url(https://fonts.googleapis.com/css?family=Work+Sans:300,600);
-
 body {
-    font-size: 20px;
-    font-family: 'Work Sans', sans-serif;
-    color: #333;
-    font-weight: 300;
     text-align: center;
-    background-color: #f8f6f0;
+    background-color: #f5f3f6;
 }
 
 h1 {
-    font-weight: 300;
+    font-family: 'Mitr', sans-serif;
+    font-size: 4.768em;
+    font-weight: 600;
     margin: 0px;
     padding: 2.5%;
-    font-size: 40px;
-    background-color: rgb(57, 157, 214);
-    color: #fff;
+    background: linear-gradient(#023059, #348abf);
+    color: #f5f3f6;
 }
 
-#rank {
-    font-size: 50px;
+h2 {
+    font-family: 'Mitr', sans-serif;
+    font-weight: 400;
+    font-size: 2.441em;
+    color: #023059;
 }
+
+h3 {
+    font-family: 'Mitr', sans-serif;
+    font-weight: 400;
+    font-size: 1.8em;
+    color: #023059;
+}
+
+p {
+    font-family: 'Mitr', sans-serif;
+    font-weight: 300;
+    font-size: 1.25em;
+}
+
+#rank {}
 
 .question {
-    font-size: 30px;
+    font-family: 'Mitr', sans-serif;
+    font-weight: 400;
+    font-size: 2.2em;
+    color: #023059;
     margin-bottom: 10px;
 }
 
 .answers {
+    font-family: 'Mitr', sans-serif;
+    font-weight: 300;
+    font-size: 1.25em;
     margin-bottom: 20px;
     text-align: left;
     display: inline-block;
@@ -39,20 +58,12 @@ h1 {
 }
 
 button {
-    font-family: 'Work Sans', sans-serif;
-    font-size: 22px;
-    background-color: rgb(35, 8, 153);
-    color: #fff;
-    border: 0px;
-    border-radius: 3px;
     padding: 20px;
     cursor: pointer;
     margin-bottom: 20px;
 }
 
-button:hover {
-    background-color: rgb(15, 110, 58);
-}
+
 
 .slide {
     position: absolute;
@@ -80,6 +91,10 @@ button:hover {
     position: relative;
     height: 200px;
     margin-top: 10%;
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+
 }
 
 .scorePage {
@@ -98,4 +113,38 @@ button:hover {
     margin-top: 1%;
     margin-bottom: 1%;
     padding-bottom: 1%;
+}
+
+footer {
+    padding: 10px;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background: linear-gradient(#348abf, #023059);
+    color: #f5f3f6;
+    text-align: center;
+}
+
+footer li {
+    font-family: 'Mitr', sans-serif;
+    font-weight: 300;
+    font-size: 1.25em;
+    text-decoration: none;
+    color: #f5f3f6;
+    list-style: none;
+}
+
+footer li a {
+    font-family: 'Mitr', sans-serif;
+    font-weight: 300;
+    font-size: 1em;
+    text-decoration: none;
+    color: #f5f3f6;
+
+}
+
+footer li a:hover {
+    color: #000;
+    text-decoration: none;
 }

@@ -2,12 +2,12 @@
     // array that holds the questions and answers and correct answer.
     const myQuestions = [
         {
-            question: "Inside which HTML element do we put the JavaScript?", // Question One
+            question: "Inside which HTML element tag do we put the JavaScript code?", // Question One
             answers: {
-                a: "<javascript></javascript>",
-                b: "<script></script>",
-                c: "<js></js>",
-                d: "<p></p>"
+                a: "javascript",
+                b: "script",
+                c: "js",
+                d: "p"
             },
             trueAnswer: "b"
   },
@@ -15,7 +15,7 @@
             question: "How can you add a single-line comment in JavaScript?", // Question Two
             answers: {
                 a: "// comment",
-                b: "<!—comment -->",
+                b: "<—comment -->",
                 c: "* comment",
                 d: "*comment*"
             },

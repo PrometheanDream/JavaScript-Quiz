@@ -8,6 +8,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
     <link rel="stylesheet" href="styles/styles.css" type="text/css" media="screen" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
 </head>
 
@@ -15,13 +16,24 @@
     <h1>JavaScript Quiz!</h1>
 
     <div class="welcomePage">
-        <h2> Welcome to the Quiz!</h2>
-        <p>Zombie ipsum brains reversus ab cerebellum viral inferno, brein nam rick mend grimes malum cerveau cerebro.</p>
-        <p>De carne cerebro lumbering animata cervello corpora quaeritis.</p>
+        <h2> Welcome!</h2>
+        <h3>This quiz tests your knowledge on the basics of JavaScript. The test consists of 10 questions. It was developed by Mary Barret, William Simpson and Johnny Vanderhorst. You can visit our GitHub pages using the links at the bottom. </h3>
+
         <br>
-        <button id="begin" onclick="window.location.href='quiz.html'">Begin Quiz</button>
-        <p>Developed by:<br>Mary Barret<br>William Simpson<br>Johnny Vanderhorst</p>
+        <button type="button" class="btn btn-secondary btn-lg" id="begin" onclick="window.location.href='quiz.html'">Begin Quiz</button>
     </div>
+    <br>
+    <footer>
+
+        <ul>
+            <li><a href="#"><i class="fa fa-github" style="font-size:36px"></i>
+                    Mary Barrett</a></li>
+            <li><a href="#"><i class="fa fa-github" style="font-size:36px"></i>
+                   William Simpson</a></li>
+            <li><a href="#"><i class="fa fa-github" style="font-size:36px"></i>
+                    Johnny Vanderhorst</a></li>
+        </ul>
+    </footer>
 
     <script src="scripts/knockout-v3.4.2.js"></script>
     <script src="scripts/app.js"></script>
