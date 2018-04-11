@@ -33,6 +33,14 @@ p {
     font-size: 1.25em;
 }
 
+li {
+    list-style: none;
+}
+
+input.radio {
+    display: inline-block;
+}
+
 #rank {}
 
 .question {

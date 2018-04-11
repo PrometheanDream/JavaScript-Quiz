@@ -15,12 +15,22 @@
 <body>
     <h1>JavaScript Quiz!</h1>
 
-    <div class="welcomePage">
-        <h2> Welcome!</h2>
-        <h3>This quiz tests your knowledge on the basics of JavaScript. The test consists of 10 questions. It was developed by Mary Barret, William Simpson and Johnny Vanderhorst. You can visit our GitHub pages using the links at the bottom. </h3>
-
-        <br>
-        <button type="button" class="btn btn-secondary btn-lg" id="begin" onclick="window.location.href='quiz.html'">Begin Quiz</button>
+    <div role="main" class="container">
+        <br/><br/>
+        
+    
+        <div data-bind="foreach: quiz">
+            <h3 data-bind="text: question"></h3>
+    
+            <div data-bind="foreach: answers">
+                <ul>
+                    <li><span style="display: inline-block;"><input class="radio" type="radio" name="answerGroup"/><h4 data-bind="text: $data"></h4></span></li>
+                </ul>
+            </div>
+            <br><br>
+    
+        </div>
+    
     </div>
     <br>
     <footer>
